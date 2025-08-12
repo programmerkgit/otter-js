@@ -17,10 +17,10 @@ IfExpression ::= "if" "(" Expression ")" BlockStatement | "if" "(" Expression ")
 
 ## 基本要素
 
-LetStatement ::= "let" Identifier "=" Expression  
-ReturnStatement::= "return" Expression
-PrefixExpression ::= PrefixOperator Expression  
-InfixExpression ::= Expression InfixOperator Expression  
+LetStatement ::= "let" Identifier "=" Expression
+ReturnStatement ::= "return" Expression?
+PrefixExpression ::= PrefixOperator Expression
+InfixExpression ::= Expression InfixOperator Expression
 CallExpression ::= Expression "(" (Expression ("," Expression)*)? ")"  
 PrefixOperator ::= "!" | "-" | "+"    
 InfixOperator ::= "+" | "-" | "*" | "/" | ">" | "<" | "==" | "!="
