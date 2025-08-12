@@ -4,7 +4,7 @@
 
 ### Node.jsのインストール
 
-Node.jsを入れるにはvoltaというツールがオススメす。 voltaを使ってnode.jsをインストールする手順を書いておきます。
+Node.jsを入れるにはvoltaというツールがオススメです。 voltaを使ってnode.jsをインストールする手順を書いておきます。
 
 #### Unix, Macの場合
 
